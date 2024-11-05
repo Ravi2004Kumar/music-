@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #6200ea;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav div p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+nav input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background: #ff4081;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background: #ff79b0;
+}
+
+nav .mode-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+main {
+    position: relative;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main article {
+    width: calc(33.333% - 20px);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+main article:hover {
+    transform: translateY(-10px);
+}
+
+main article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+main article p,
+main article h4 {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+main article p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #6200ea;
+}
+
+main article h4 {
+    font-size: 1.2em;
+    color: #ff4081;
+}
+
+main article .audio-controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+main article button {
+    background: #6200ea;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+main article button:hover {
+    background: #7f39fb;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+}
